@@ -9,8 +9,8 @@ public class Gravity : MonoBehaviour
     public static List<Gravity> OtherObjectsList;
     
 
-    //[SerializeField] private bool planet = false;
-    //[SerializeField] private int orbitSpeed = 1000;
+    [SerializeField] private bool planet = false;
+    [SerializeField] private int orbitSpeed = 1000;
 
     private void Awake()
     {
@@ -20,9 +20,9 @@ public class Gravity : MonoBehaviour
             OtherObjectsList = new List<Gravity>();
         }
         OtherObjectsList.Add(this);
-        //if (!planet)
+        if (!planet)
         {
-            //rb.AddForce(Vector3.left * orbitSpeed);
+            rb.AddForce(Vector3.left * orbitSpeed);
         }
     }
     private void FixedUpdate()

@@ -316,7 +316,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 258599418}
   serializedVersion: 4
-  m_Mass: 1200
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -347,6 +347,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e66d2bfdde7c9d4d83ebbdb16fbd91f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planet: 0
+  orbitSpeed: 10000
 --- !u!1001 &636986861
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -570,7 +572,7 @@ Transform:
   m_GameObject: {fileID: 759785717}
   serializedVersion: 2
   m_LocalRotation: {x: 0.41168174, y: -0, z: -0, w: 0.9113277}
-  m_LocalPosition: {x: 0, y: 22.95, z: -13.08}
+  m_LocalPosition: {x: 0, y: 34.34, z: -23.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -781,6 +783,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e66d2bfdde7c9d4d83ebbdb16fbd91f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planet: 1
+  orbitSpeed: 0
 --- !u!1001 &1487544798
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -803,7 +807,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 494976, guid: fa49e460baf435b4780da7196c2ab473, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.2
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 494976, guid: fa49e460baf435b4780da7196c2ab473, type: 3}
       propertyPath: m_LocalRotation.w
@@ -986,6 +990,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e66d2bfdde7c9d4d83ebbdb16fbd91f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planet: 0
+  orbitSpeed: 10000
 --- !u!1001 &1746431840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1004,7 +1010,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1229251971759408710, guid: 5f776740c447e45afb25edbca842de92, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.080616
+      value: -8.2
       objectReference: {fileID: 0}
     - target: {fileID: 1229251971759408710, guid: 5f776740c447e45afb25edbca842de92, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1062,7 +1068,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1746431841}
   serializedVersion: 4
-  m_Mass: 500
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -1093,6 +1099,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e66d2bfdde7c9d4d83ebbdb16fbd91f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planet: 0
+  orbitSpeed: 10000
 --- !u!1001 &1844968720
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1115,7 +1123,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4431810912100570, guid: 5d1442ad8c11442988e0eca5d8af73f0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 16.852072
+      value: 22.5
       objectReference: {fileID: 0}
     - target: {fileID: 4431810912100570, guid: 5d1442ad8c11442988e0eca5d8af73f0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1169,7 +1177,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1844968721}
   serializedVersion: 4
-  m_Mass: 1000
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -1200,6 +1208,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e66d2bfdde7c9d4d83ebbdb16fbd91f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planet: 0
+  orbitSpeed: 10000
 --- !u!1001 &1884841035
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1276,7 +1286,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1884841036}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -1307,6 +1317,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e66d2bfdde7c9d4d83ebbdb16fbd91f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planet: 0
+  orbitSpeed: 10000
 --- !u!1001 &2046103162
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1321,7 +1333,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4677324220665258, guid: b4201d402613a4464b35c805dafcca62, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.41038
+      value: 14.4
       objectReference: {fileID: 0}
     - target: {fileID: 4677324220665258, guid: b4201d402613a4464b35c805dafcca62, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1329,7 +1341,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4677324220665258, guid: b4201d402613a4464b35c805dafcca62, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.488163
+      value: 10.4
       objectReference: {fileID: 0}
     - target: {fileID: 4677324220665258, guid: b4201d402613a4464b35c805dafcca62, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1383,7 +1395,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2046103163}
   serializedVersion: 4
-  m_Mass: 600
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -1414,6 +1426,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e66d2bfdde7c9d4d83ebbdb16fbd91f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planet: 0
+  orbitSpeed: 10000
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
